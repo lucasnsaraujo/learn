@@ -1,92 +1,56 @@
-<svelte:head>
-    <title>Livros USP</title>
-</svelte:head>
-
 <script>
-    import data from '../resources/data.json';
+	import data from '../resources/data.json';
+	import Card from '../components/List/Card.svelte';
+	import '../styles.css';
 
-    const organizePerPeriod = (data) => data.reduce((acc, subject) => {
-        let { period } = subject;
-        period = Number(period)
+	const obligatory = data.filter((item) => item.section === 'obligatory');
 
-        if (!acc?.[period - 1]?.length) {
-            acc[period - 1] = []
-        }
+	const elective = data.filter((item) => item.section === 'elective');
 
-        acc[period - 1].push(subject);
-
-        return acc
-    }, []).filter(item => item)
-
-
-    const obligatory = data.filter(item => item.section === 'obligatory');
-    const obligatoryPerPeriod = organizePerPeriod(obligatory)
-
-    const elective = data.filter(item => item.section === 'elective');
-    const electivePerPeriod = organizePerPeriod(elective)
-
-    const free = data.filter(item => item.section === 'free');
-    const freePerPeriod = organizePerPeriod(free);
-
+	const free = data.filter((item) => item.section === 'free');
 </script>
 
+<svelte:head>
+	<title>Livros USP</title>
+</svelte:head>
 
-<div>
-    <h2>Matérias <strong>obrigatórias</strong></h2>
-    {#each obligatoryPerPeriod as subjects, index}
-        <h3>{subjects[0].period}º período</h3>
-        <ul>
-            {#each subjects as subject}
-            <li>
-                <a href={subject.link} target="_blank">{subject.name}</a>
-                <ul>
-                    <li>{subject.books}</li>
-                </ul>
-            </li>
-            {/each}
-        </ul>
-    <ul></ul>
-    {/each}
-</div>
+<main>
+	<header>
+		<h1>Ciência da Computação para Autodidatas</h1>
+		<p>
+			Bem-vindo ao nosso site! Aqui você encontrará recursos de aprendizado de alta qualidade
+             para estudantes e desenvolvedores autodidatas interessados em Ciência da Computação. 
+             Organizamos o material do curso da Universidade de São Paulo por período, com matérias 
+             obrigatórias, eletivas e livres, juntamente com uma seleção de livros recomendados. 
+             Explore nosso conteúdo e aproveite para expandir seu conhecimento na área. Bons estudos!
+		</p>
+	</header>
+	<Card title="Matérias obrigatórias" subjectsArray={obligatory} />
+	<Card title="Matérias eletivas" subjectsArray={elective} />
+	<Card title="Matérias livres" subjectsArray={free} />
+</main>
 
-<hr/>
+<style>
+	main {
+		max-width: 1125px;
+		margin: 0 auto;
+		padding: 20px;
+	}
 
-<div>
-    <h2>Matérias <strong>eletivas</strong></h2>
-    {#each electivePerPeriod as subjects, index}
-        <h3>{subjects[0].period}º período</h3>
-        <ul>
-            {#each subjects as subject}
-            <li>
-                <a href={subject.link} target="_blank">{subject.name}</a>
-                <ul>
-                    <li>{subject.books}</li>
-                </ul>
-            </li>
-            {/each}
-        </ul>
-    <ul></ul>
-    {/each}
-</div>
-
-<hr/>
-
-<div>
-    <h2>Matérias <strong>livres</strong></h2>
-    {#each freePerPeriod as subjects, index}
-        <h3>{subjects[0].period}º período</h3>
-        <ul>
-            {#each subjects as subject}
-            <li>
-                <a href={subject.link} target="_blank">{subject.name}</a>
-                <ul>
-                    <li>{subject.books}</li>
-                </ul>
-            </li>
-            {/each}
-        </ul>
-    <ul></ul>
-    {/each}
-</div>
+	header {
+	}
+	header > h1 {
+		text-align: center;
+        color: #574f7d;
+        padding-bottom: 10px;
+        font-weight: 900;
+	}
+    header > p {
+        text-align: left;
+        color: #574f7d;
+        padding-bottom: 40px;
+    }
 
 
+
+</style>

@@ -203,13 +203,6 @@
         "books": "Livro Texto:\n-Silberschatz, A., Galvin, P.B., Gagne, G., Fundamentos de Sistemas Operacionais, traduação Aldir Coelho Corrêa da Silva., 8ª Edição, 2011, LTC.\n-TANENBAUM, A.S. Sistemas Operacionais Modernos, tradução Ronaldo A. L. Gonçalves, Luís A. Consularo, Luciana do Amaral Teixeira, revisão técnica Raphael Y. de Camargo, 3ª edição, 2010. Pearson\n-TANENBAUM, A.S.; Wodhull, A.S.; Sistemas Operacionais: Projeto e Implementação. Prentice Hall, 2008, 3ª edição.\n\n\nBibliografia Complementar:\n- OLIVEIRA, R., TOSCANI, S., CARISSIMI, A.S.; Sistemas Operacionais. Livro 11 da Série Livros Didáticos do Instituto de Informática da UFRG, 2a. Ed., Editora Sagra Luzzato, 2001.\n- MACHADO, F. B., MAIA, L. P. Arquitetura de Sistemas Operacionais. Editora  LTC. 4ª Edição. 2007. \n- STALLINGS, W. Operating Systems: Internals and Design Principles, Prentice Hall, 2004, 5a edição, ISBN 0131479547. \n- DEITEL, H.M.; DEITEL, P.J.; CHOFFNES, D.R. Sistemas Operacionais.  Prentice Hall   Tradução da 3a edição, 2005."
     },
     {
-        "link": "https://uspdigital.usp.br/jupiterweb/null",
-        "name": "&nbsp;",
-        "period": 4,
-        "section": "obligatory",
-        "books": null
-    },
-    {
         "link": "https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=SCC0219&codcur=55041&codhab=0",
         "name": " Introdução ao Desenvolvimento Web",
         "period": 5,
@@ -348,13 +341,6 @@
         "period": 3,
         "section": "elective",
         "books": "Texto:\n- STALLINGS, W. Computer Organization and Architecture: Designing for Performance. Prentice Hall, 2005, 7th edition, ISBN 0131856448.\n- PATTERSON, D. A.; et al Computer Organization and Design. 3rd Edition, Morgan Kaufmann, 2004, BK&C Edition, ISBN 1558606041.\n\nBibliografia Complementar:\n- MANO, M.M.; KIME, C.R. Logic and Computer Design Fundamentals. Prentice Hall, 2000.\n- WAKERLY, J.F. Digital Design: Principles & Practices. Third Edition, Prentice Hall, 2000.\n- TANENBAUM, A.S. Structured Computer Organization. Prentice Hall, 5a edição, 2005, ISBN 0131485210."
-    },
-    {
-        "link": "https://uspdigital.usp.br/jupiterweb/null",
-        "name": "&nbsp;",
-        "period": 3,
-        "section": "elective",
-        "books": null
     },
     {
         "link": "https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=SCC0213&codcur=55041&codhab=0",
@@ -637,13 +623,6 @@
         "books": "\"Livro Texto:\n\n-NOERGAARD, T. \"Embedded Systems Architecture: A Comprehensive Guide for Engineers and Programmers\", 656 pages, ISBN 0750677929, Newnes; 2005.\n-BERGER, A.; BERGER, A.S. \"Embedded Systems Design: An Introduction to Processes, Tools and Techniques\", 237 pages, ISBN 1578200733,  Newnes; 2001.\n\"Bibliografia Complementar:\n\n-BRAUNL, T. \"Embedded Robotics: Mobile Robot Design and Applications with Embedded Systems\", 434 pages, ISBN 3540034366,  Springer; 2004.\n-ROWEN, C., Engineering the Complex SoC: Fast, Flexible Design with Configurable Processors, Prentice Hall, 2004\n-CATSOULIS, J. \"Designing Embedded Hardware\", 328 pages ISBN 0596003625, O'Reilly; 2002.\n-CHENG  \"Operating Systems and Embedded Programming: from Vcrs and Pdas to Avionics and Sensor Networks\", ISBN: 0471486019, 500 pages, John Wiley & Sons Inc, 2006."
     },
     {
-        "link": "https://uspdigital.usp.br/jupiterweb/null",
-        "name": "&nbsp;",
-        "period": 7,
-        "section": "elective",
-        "books": null
-    },
-    {
         "link": "https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=SSC0950&codcur=55041&codhab=0",
         "name": " Projeto e Desenvolvimento de Software de Sistema",
         "period": 7,
@@ -861,13 +840,6 @@
         "books": "Livro Texto:\n\nJAIN, J., The art of Computer Systems Performance Analysis, John Wiley & Sons, Inc., 1996.\n\nBibliografia Complementar:\n\nSANTANA, M.J., SANTANA, R.H.C., FRANCÊS, C.R.L., Avaliação e Análise de Desempenho de Sistemas Computacionais: Técnicas e Ferramentas, Publicação Interna ICMC - USP, 1997.\nMENASCE, D.A.; ALMEIDA, V.A.F.,  Capacity Planning for web Services: Metrics, Models, and Methods, Prentice Hall, 2001.\nFORTIER, P. MICHEL, HOWARD, Computer Systems Performance Evaluation and Prediction, First Ediditon (Paperback), Digital Press 2003.\nMENASCE, D.A.; DOWDY, L.W.; ALMEIDA, V.A.F., Performance by Design: Capacity Planning by Example (Paperback), 2004, Prentice Hall, ISBN 0-13-090673-5.\n\n"
     },
     {
-        "link": "https://uspdigital.usp.br/jupiterweb/null",
-        "name": "&nbsp;",
-        "period": 8,
-        "section": "elective",
-        "books": null
-    },
-    {
         "link": "https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=SSC0713&codcur=55041&codhab=0",
         "name": " Sistemas Evolutivos e Aplicados à Robótica",
         "period": 8,
@@ -915,13 +887,6 @@
         "period": 8,
         "section": "elective",
         "books": "Livro Texto\nCOULOURIS, G.; DOLLIMORE, J.; KINDBERG, T. Gordon B. Distributed Systems: Concepts and Design, Addison-Wesley, Hardcover, 5th edition, Published May 2013, 1067 pages, ISBN 0132143011\n\nBibliografia Complementar\nTANEMBAUM, A. S. Distributed Systems: Principles and Paradigms (2nd Edition), Prentice Hall, 2006, 704 pages.\nTEL, G. Introduction to Distributed Algorithms, Cambridge University Press; 2 edition (October 16, 2000). ISBN-10: 0521794838, 612 pages \nGARG, V. K. Elements of Distributed Computing. Wiley-IEEE Press; 1 edition (May 23, 2002), ISBN-10: 0471036005, 448 pages\nGHOSH, S. \"Distributed Systems: An Algorithmic Approach, Second Edition\",  2014, ISBN: 1466552972, 552 pages \nPIERSON, J. M. \"Large-Scale Distributed Systems and Energy Efficiency: A Holistic View\", 2015, ISBN: 1118864638, 336 pages.\nPeriódicos da Área\n"
-    },
-    {
-        "link": "https://uspdigital.usp.br/jupiterweb/null",
-        "name": "&nbsp;",
-        "period": 8,
-        "section": "elective",
-        "books": null
     },
     {
         "link": "https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=SSC0745&codcur=55041&codhab=0",
