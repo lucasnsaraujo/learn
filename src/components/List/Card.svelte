@@ -91,7 +91,6 @@
     }
 
 	li {
-		line-break: anywhere;
         margin-left: 15px;
         list-style: none;
         color: #503a65;
