@@ -33,7 +33,7 @@
 				{#if subject.books.length}
 				<div class="content">
 					<h5>
-						<a href={subject.link} target="_blank">{subject.name}</a>
+						{subject.name}
 					</h5>
 					<ul>
 						{#each subject.books as book}
@@ -74,21 +74,6 @@
         font-size: 1.4rem;
         margin-bottom: 10px;
 	}
-
-    h5 > a {
-        text-decoration: none;
-        color: unset;
-    }
-
-    h5 > a:visited {
-        color: unset;
-    }
-
-    h5:hover {
-        filter: opacity(0.5);
-        transition: all 0.15s ease-in-out;
-        text-decoration: underline;
-    }
 
 	li {
         margin-left: 15px;
