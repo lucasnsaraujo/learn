@@ -17,23 +17,33 @@
 				return acc;
 			}, [])
 			.filter((item) => item);
+
+		const booksOrganizedPerPeriod = organizePerPeriod(subjectsArray)
+
+		const shouldRenderPeriodTitle = (books) => books.reduce((acc, value) => value.books.length ? acc + 1 : 0 , 0)
 </script>
 
 <h2>{title}</h2>
 <div class="card">
-	{#each organizePerPeriod(subjectsArray) as subjects, index}
+	{#each booksOrganizedPerPeriod as subjects, index}
 		<div class="period">
+			{#if !!shouldRenderPeriodTitle(subjects)}
 			<h4>{subjects[0].period}º período</h4>
 			{#each subjects as subject}
+				{#if subject.books.length}
 				<div class="content">
 					<h5>
 						<a href={subject.link} target="_blank">{subject.name}</a>
 					</h5>
 					<ul>
-						<li>{subject.books}</li>
+						{#each subject.books as book}
+							<li>{book}</li>
+						{/each}
 					</ul>
 				</div>
+				{/if}
 			{/each}
+			{/if}
 		</div>
 	{/each}
 </div>

@@ -11,20 +11,19 @@
 </script>
 
 <svelte:head>
-	<title>Livros USP</title>
+	<title>Autodidatas - Ciência da Computação</title>
 </svelte:head>
 
 <main>
 	<header>
 		<h1>Ciência da Computação para Autodidatas</h1>
 		<p>
-			Bem-vindo ao nosso site! Aqui você encontrará recursos de aprendizado de alta qualidade
-             para estudantes e desenvolvedores autodidatas interessados em Ciência da Computação. 
-             Organizamos o material do curso da Universidade de São Paulo por período, com matérias 
-             obrigatórias, eletivas e livres, juntamente com uma seleção de livros recomendados. 
-             Explore nosso conteúdo e aproveite para expandir seu conhecimento na área. Bons estudos!
+			Bem-vindo ao nosso site! Catalogamos aqui os livros necessários em uma graduação no curso de
+			Ciência da Computação, para que desenvolvedores ou estudantes autodidatas possam expandir seus
+			conhecimentos. Bons estudos! (Inspirado por: teachyourselfcs.com)
 		</p>
 	</header>
+
 	<Card title="Matérias obrigatórias" subjectsArray={obligatory} />
 	<Card title="Matérias eletivas" subjectsArray={elective} />
 	<Card title="Matérias livres" subjectsArray={free} />
