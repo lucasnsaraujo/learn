@@ -12,12 +12,17 @@ O site foi inspirado pelo projeto teachyourselfcs.com, e nossa versão visa forn
 # Como Utilizar o Código
 Para utilizar o código deste projeto, siga as instruções abaixo:  
 
-Faça um clone deste repositório para o seu ambiente local.  
-Certifique-se de ter os requisitos adequados instalados, incluindo um ambiente de desenvolvimento com suporte ao Svelte.  
-Navegue até o diretório do projeto e instale as dependências executando o comando npm install.  
-Inicie o servidor de desenvolvimento com o comando `npm run dev`.  
-Abra seu navegador preferido e visite `localhost:5173` para visualizar o site localmente.  
-Explore o catálogo de livros clicando nos títulos para realizar buscas no Google.  
+1. Faça um clone deste repositório para o seu ambiente local.  
+
+2. Certifique-se de ter os requisitos adequados instalados, incluindo um ambiente de desenvolvimento com suporte ao Svelte.  
+
+3. Navegue até o diretório do projeto e instale as dependências executando o comando npm install.  
+
+4. Inicie o servidor de desenvolvimento com o comando `npm run dev`.  
+
+5. Abra seu navegador preferido e visite `localhost:5173` para visualizar o site localmente.  
+
+6. Explore o catálogo de livros clicando nos títulos para realizar buscas no Google.  
 
 ## Contribuição
 Agradecemos a contribuição de todos para a melhoria deste projeto. Se você tiver sugestões, correções de bugs ou novos recursos para adicionar, sinta-se à vontade para criar um fork deste repositório, fazer as alterações necessárias e enviar uma solicitação de pull.
