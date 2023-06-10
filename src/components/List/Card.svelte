@@ -92,9 +92,10 @@
 
 	li {
         margin-left: 15px;
-        list-style: none;
+        list-style-type: circle;
         color: #503a65;
 	}
+
 
 	.card {
 		border-radius: 6px;
