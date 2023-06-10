@@ -58,6 +58,7 @@
         border-radius: 6px;
         padding: 20px;
         background-color: #3c2a4d;
+		user-select: none;
 	}
 
 	h4 {
@@ -69,6 +70,7 @@
         max-width: max-content;
         font-weight: bold;
         color: #ebf1f4;
+		user-select: none;
 	}
 	h5 {
 		text-transform: uppercase;
