@@ -1,7 +1,10 @@
 # Catálogo de Livros para Graduação em Ciência da Computação
 Bem-vindo ao nosso repositório no GitHub! Aqui você encontrará o código-fonte do site "Autodidatas", onde catalogamos os livros necessários em uma graduação no curso de Ciência da Computação. Nosso objetivo é oferecer uma plataforma interativa para estudantes e desenvolvedores autodidatas expandirem seus conhecimentos nessa área.
 
-O site está disponível em autodidatas.netlify.app.
+O site está disponível em [autodidatas.netlify.app.](https://autodidatas.netlify.app/)
+
+![image](https://github.com/lucasnsaraujo/learn/assets/36781651/e130c333-7a23-44aa-b703-65eef2c41380)
+
 
 # Sobre o Projeto
 O site foi inspirado pelo projeto teachyourselfcs.com, e nossa versão visa fornecer uma experiência aprimorada. Ao clicar em um livro no catálogo, o usuário será automaticamente direcionado para uma busca no Google relacionada ao livro selecionado, facilitando a obtenção de informações adicionais.
