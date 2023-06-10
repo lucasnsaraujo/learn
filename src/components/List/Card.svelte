@@ -21,6 +21,8 @@
 		const booksOrganizedPerPeriod = organizePerPeriod(subjectsArray)
 
 		const shouldRenderPeriodTitle = (books) => books.reduce((acc, value) => value.books.length ? acc + 1 : 0 , 0)
+
+		const generateAmazonRedirect = (title) => `https://www.google.com/search?q=${encodeURIComponent(title)}`
 </script>
 
 <h2>{title}</h2>
@@ -37,7 +39,7 @@
 					</h5>
 					<ul>
 						{#each subject.books as book}
-							<li>{book}</li>
+							<li><a href={generateAmazonRedirect(book)} target="_blank">{book}</a></li>
 						{/each}
 					</ul>
 				</div>
@@ -75,10 +77,35 @@
         margin-bottom: 10px;
 	}
 
+    h5 > a {
+        text-decoration: none;
+        color: unset;
+    }
+
+    h5 > a:visited {
+        color: unset;
+    }
+
+
 	li {
         margin-left: 15px;
         list-style-type: circle;
         color: #503a65;
+		cursor: pointer;
+	}
+
+	li > a:visited {
+		text-decoration: none;
+		color: unset;
+	}
+	li > a {
+		text-decoration: none;
+		color: unset;
+	}
+
+	li:hover {
+		filter: invert(0.5);
+		margin-left: 20px;
 	}
 
 

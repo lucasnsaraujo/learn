@@ -20,7 +20,8 @@
 		<p>
 			Bem-vindo ao nosso site! Catalogamos aqui os livros necessários em uma graduação no curso de
 			Ciência da Computação, para que desenvolvedores ou estudantes autodidatas possam expandir seus
-			conhecimentos. Bons estudos! (Inspirado por: teachyourselfcs.com)
+			conhecimentos. Ao clicar em um livro, ele automaticamente fará uma busca no Google com o livro escolhido.
+			 Bons estudos! (Inspirado por: teachyourselfcs.com)
 		</p>
 	</header>
 
