@@ -10,14 +10,14 @@ O site está disponível em [autodidatas.netlify.app.](https://autodidatas.netli
 O site foi inspirado pelo projeto teachyourselfcs.com, e nossa versão visa fornecer uma experiência aprimorada. Ao clicar em um livro no catálogo, o usuário será automaticamente direcionado para uma busca no Google relacionada ao livro selecionado, facilitando a obtenção de informações adicionais.
 
 # Como Utilizar o Código
-Para utilizar o código deste projeto, siga as instruções abaixo:
+Para utilizar o código deste projeto, siga as instruções abaixo:  
 
-Faça um clone deste repositório para o seu ambiente local.
-Certifique-se de ter os requisitos adequados instalados, incluindo um ambiente de desenvolvimento com suporte ao Svelte.
-Navegue até o diretório do projeto e instale as dependências executando o comando npm install.
-Inicie o servidor de desenvolvimento com o comando `npm run dev`.
-Abra seu navegador preferido e visite `localhost:5173` para visualizar o site localmente.
-Explore o catálogo de livros clicando nos títulos para realizar buscas no Google.
+Faça um clone deste repositório para o seu ambiente local.  
+Certifique-se de ter os requisitos adequados instalados, incluindo um ambiente de desenvolvimento com suporte ao Svelte.  
+Navegue até o diretório do projeto e instale as dependências executando o comando npm install.  
+Inicie o servidor de desenvolvimento com o comando `npm run dev`.  
+Abra seu navegador preferido e visite `localhost:5173` para visualizar o site localmente.  
+Explore o catálogo de livros clicando nos títulos para realizar buscas no Google.  
 
 ## Contribuição
 Agradecemos a contribuição de todos para a melhoria deste projeto. Se você tiver sugestões, correções de bugs ou novos recursos para adicionar, sinta-se à vontade para criar um fork deste repositório, fazer as alterações necessárias e enviar uma solicitação de pull.
